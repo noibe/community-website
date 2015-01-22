@@ -18,3 +18,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .text {
     text-align: justify;
 }
+.site-title, .site-description {
+	text-shadow: 0 0 10px #000;
+}
+.site-description {
+	font-weight:200;
+	text-align: center;
+}

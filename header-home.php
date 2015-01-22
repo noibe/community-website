@@ -18,12 +18,14 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-timeline.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/wtal.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
+	<?php include 'styles.php'; ?>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="css/material-colors.css"/>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv-printshiv.js"></script>
 	<![endif]-->
+	<?php wp_head(); ?>
 </head>
 <body class="">
 

@@ -1,18 +1,17 @@
 <?php get_header( 'home' ); ?>
-<div class="hero green-300 font-white" id="foo">
+<div class="hero" id="foo">
+	<?php if (display_header_text()): ?>
 	<div class="wide container">
-		<h1 style="text-shadow:0 0 10px #000;">Comunidade <b>Noibe</b></h1>
-	</div>
+		<h1 class="site-title"><?php echo parsed_site_title(); ?></h1>
+		<?php site_description() ?>
+	</div>		
+	<?php endif; ?>
 	<div class="scroll-container">
 		<a href="#" id="js-scroll-services" class="scroll">
 
 			<span class="scroll-btn">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -300 1792 1792" version="1.1">
 					<g transform="matrix(1,0,0,-1,288.54238,1255.0508)">
-						<!--
-							TODO - circle ux and hero typeface
-							Better the UX of the circle
-						-->
 						<path
 							d="m 1075,800 q 0,-13 -10,-23 L 599,311 q -10,-10 -23,-10 -13,0 -23,10 L 87,777 q -10,10 -10,23 0,13 10,23 l 50,50 q 10,10 23,10 13,0 23,-10 L 576,480 969,873 q 10,10 23,10 13,0 23,-10 l 50,-50 q 10,-10 10,-23 z"></path>
 					</g>

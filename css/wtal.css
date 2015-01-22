@@ -65,7 +65,6 @@
 }
 
 .hero {
-	background: url("../img/home.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
