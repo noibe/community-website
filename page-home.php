@@ -1,3 +1,7 @@
+<?php /*
+Template Name: Home
+*/ ?>
+
 <?php get_header( 'home' ); ?>
 <div class="hero" id="foo">
 	<?php if (display_header_text()): ?>
