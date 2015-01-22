@@ -1,0 +1,20 @@
+/*
+Theme Name: Noibe
+Theme URI: http://noibe.com
+Author: Noibe Community
+Author URI: http://noibe.com
+Description: Tema utilizado no noibe.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.text b {
+    padding-left: 0px !important;
+}
+.text {
+    text-align: justify;
+}
