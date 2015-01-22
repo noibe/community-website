@@ -28,12 +28,10 @@ Template Name: Home
 <div id="block-1" class="block services grey-100 font-grey-900">
 
 	<div class="container">
-		<div class="about">
+		<div class="about nextevent">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/cpbr.png">
 			<h1>Estaremos na CPBR8!</h1>
-
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque corporis eligendi
-				error impedit ipsum maxime minus mollitia nam necessitatibus nemo omnis optio pariatur quisquam ratione,
-				sapiente suscipit tempora unde.</p>
+			<p class="lead">A Campus Party Brasil é o principal acontecimento tecnológico realizado anualmente no Brasil. Nele são tratados os mais diversos temas relacionados à Internet, reunindo um grande número de comunidades e usuários da rede mundial de computadores envolvidos com tecnologia e cultura digital.</p>
 		</div>
 	</div>
 
