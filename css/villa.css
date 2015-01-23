@@ -12,11 +12,11 @@
 
 html {
     /* can i use this someday, it helps to use the Root EM (rem) rule */
-    /*font-size: 62.5%;*/
+    font-size: 62.5%;
 }
 
 body {
-    font-size: 100%;
+    font-size: 160%;
     line-height: 1.25;
 }
 
@@ -96,9 +96,9 @@ blockquote {
 
 @media (min-width: 56.25em) {
     h1 {
-        font-size: 3em;
+        font-size: 4em;
         /* 3x body copy size = 48px */
-        line-height: 1.05;
+        line-height: 1.05; /* << ORIGINAL */
         /* keep to a multiple of the 20px line height
         and something more appropriate for display headings */
     }
@@ -115,3 +115,16 @@ blockquote {
         line-height: 1.25;
     }
 }
+
+/* UI Helpers */
+
+/* Opacity Helpers */
+.opacity10, .h-opacity10:hover { opacity: 0.1 }
+.opacity20, .h-opacity20:hover { opacity: 0.2 }
+.opacity30, .h-opacity30:hover { opacity: 0.3 }
+.opacity40, .h-opacity40:hover { opacity: 0.4 }
+.opacity50, .h-opacity50:hover { opacity: 0.5 }
+.opacity60, .h-opacity60:hover { opacity: 0.6 }
+.opacity70, .h-opacity70:hover { opacity: 0.7 }
+.opacity80, .h-opacity80:hover { opacity: 0.8 }
+.opacity90, .h-opacity90:hover { opacity: 0.9 }
