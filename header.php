@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<title><?php wp_title( '|', true, 'right' ); echo get_bloginfo('name'); ?></title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/villa.js"></script>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/villa-foundation.css"/>
