@@ -11,33 +11,15 @@
 }
 
 .block-1 .navbar {
-	background-color: #f5f5f5;
-}
-
-.block-3 .navbar {
-	background-color: #004d40;
+	background-color: #212121;
 }
 
 .block-1 .navbar footer .menu {
-	color: #66bb6a;
-}
-
-.block-1 .navbar .brand,
-.block-2 .navbar .brand {
-	color: #66bb6a;
-}
-
-.block-1 .navbar #bg path,
-.block-2 .navbar #bg path {
-	stroke: #cddc39 !important;
-}
-
-.block-3 .navbar .brand {
 	color: #fff;
 }
 
-.block-3 .navbar #bg path {
-	stroke: #fff !important;
+.block-1 .navbar #bg path {
+	stroke: #607d8b !important;
 }
 
 @media (max-width: 768px) {

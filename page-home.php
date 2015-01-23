@@ -25,7 +25,7 @@ Template Name: Home
 	</div>
 </div>
 
-<div id="block-1" class="block services grey-100 font-grey-900">
+<div id="contenthome" class="block services grey-100 font-grey-900">
 
 	<div class="container">
 		<div class="about nextevent">

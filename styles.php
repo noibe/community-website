@@ -10,4 +10,7 @@
     text-align: center;
     margin-top: 20px;
 }
+.site-title {
+    font-size:5em !important;
+}
 </style>
