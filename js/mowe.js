@@ -54,14 +54,6 @@ window.onload = function () {
 		scrollTo(h.top);
 	};
 
-	document.getElementById("js-scroll-prices").onclick = function fun() {
-
-		var wrapper = document.getElementById("prices"); //get div
-		var h = wrapper.getBoundingClientRect(); //get height
-
-		scrollTo(h.top);
-	};
-
 	function scrollTo(x) {
 		//elapsed
 		var e;
