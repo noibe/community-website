@@ -5,7 +5,7 @@
 	color:#<?php header_textcolor(); ?>;
 }
 #page p {
-	font-size: 1.5em;
+	font-size: 1em;
     font-weight: 300;
     margin-top: 20px;
 }
