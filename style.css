@@ -44,5 +44,5 @@ blockquote {
 }
 blockquote p{
     padding:5px 0 5px 0;
-    font-size:1em;
+    font-size:1em !important;
 }
