@@ -90,15 +90,19 @@ Template Name: Home
 			</div>
 		</div>
 
-		<div class="wow">
+		<div class="wow contact">
 			<div class="wow-container left">
 
 				<section class="text">
 					<h1>Contato</h1>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim exercitationem modi
-						pariatur quaerat rerum similique tempora. Adipisci aliquam culpa facilis, fugit laborum, minus
-						molestias neque quidem repellendus, sed sequi?</p>
+					<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoibegroup&amp;width=500&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=1502114706707224" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:258px;" allowTransparency="true"></iframe>
+
+					<p>Desejas entrar em contato conosco? envie um email para contato@noibe.com que lhe responderemos o mais breve possível!</p>
+
+
+					<p>Ah, não se esqueça de curtir a nossa <a href="http://facebook.com/noibegroup" alt="Nós no Facebook">página no facebook</a> e nos <a href="http://twitter.com/baianoibe" title="Nós no Twitter">seguir no Twitter</a>(mas cuidado, nem nós sabemos direito para onde vamos, portanto, nos siga com cuidado).</p>
+
 				</section>
 
 				<section class="img">

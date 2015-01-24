@@ -24,7 +24,7 @@ window.onresize = function () {
 	}
 };
 
-$('.wow').click(function () {
+$('.wow:not(.contact)').click(function () {
 	if (!$(this).hasClass('show')) {
 		$(this).addClass('show');
 	} else {

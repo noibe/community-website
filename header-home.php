@@ -27,8 +27,7 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 </head>
-<body class="">
-
+<body class="<?php body_class(); ?>">
 <div class="navbar fixed-sm font-white">
 	<div class="full wide container" id="headertopo">
 
