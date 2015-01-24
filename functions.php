@@ -12,6 +12,10 @@
 
 	add_theme_support( 'custom-header', $defaults );
 
+	add_theme_support( 'post-thumbnails' );
+
+	add_theme_support( 'html5', ['comment-list', 'comment-form', 'search-form', 'gallery', 'caption'] );
+
 	function parsed_site_title(){
 
 		$title = explode(' ', get_bloginfo('name'));
