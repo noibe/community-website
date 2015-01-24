@@ -47,6 +47,8 @@ blockquote p{
     font-size:1em !important;
 }
 h2, h3, h4, h5, h6 {
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:30px;
+}
+#page p a, #post p a{
+    color:#0d47a1;
 }
