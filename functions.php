@@ -1,6 +1,6 @@
 <?php
 
-	$defaults = [
+	$defaults = array(
 		'default-image'          => get_template_directory_uri() . '/img/home.jpg',
 		'flex-height'            => true,
 		'flex-width'             => true,
@@ -8,13 +8,13 @@
 		'random-default'         => false,
 		'header-text'            => true,
 		'default-text-color'     => '#ffffff',
-	];
+	);
 
 	add_theme_support( 'custom-header', $defaults );
 
 	add_theme_support( 'post-thumbnails' );
 
-	add_theme_support( 'html5', ['comment-list', 'comment-form', 'search-form', 'gallery', 'caption'] );
+	add_theme_support( 'html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption'));
 
 	function parsed_site_title(){
 
